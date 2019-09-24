@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vivaldiclone/static/css/main.12d7b3c6.chunk.css",
+    "main.js": "/vivaldiclone/static/js/main.3d2fc47b.chunk.js",
+    "main.js.map": "/vivaldiclone/static/js/main.3d2fc47b.chunk.js.map",
+    "runtime~main.js": "/vivaldiclone/static/js/runtime~main.10cdbc9d.js",
+    "runtime~main.js.map": "/vivaldiclone/static/js/runtime~main.10cdbc9d.js.map",
+    "static/js/2.3c48b98e.chunk.js": "/vivaldiclone/static/js/2.3c48b98e.chunk.js",
+    "static/js/2.3c48b98e.chunk.js.map": "/vivaldiclone/static/js/2.3c48b98e.chunk.js.map",
+    "index.html": "/vivaldiclone/index.html",
+    "precache-manifest.885c4a7175967633344b78bd8a34866e.js": "/vivaldiclone/precache-manifest.885c4a7175967633344b78bd8a34866e.js",
+    "service-worker.js": "/vivaldiclone/service-worker.js",
+    "static/css/main.12d7b3c6.chunk.css.map": "/vivaldiclone/static/css/main.12d7b3c6.chunk.css.map"
+  }
+}
