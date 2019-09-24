@@ -24,7 +24,7 @@ class Customers extends Component{
             return user.name.toLowerCase().includes(this.state.filter);
         })
         return(
-            <section>
+            <section className='container'>
                 <div>
                 <h1>Customers</h1>
                 <div>
@@ -48,7 +48,7 @@ class Customers extends Component{
                     {
                         filtereduser.map((customer, index)=>{
                             return(
-                                <tr key={index}>
+                                <tr className='entry' key={index}>
                                     <td>{customer.name}</td>
                                     <td>{customer.city}</td>
                                     <td>{customer.state}</td>

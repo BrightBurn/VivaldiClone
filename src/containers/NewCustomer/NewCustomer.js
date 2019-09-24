@@ -35,12 +35,15 @@ class NewCustomers extends Component{
     }
     render(){
         return(
-            <section>
+            <section className='container'>
                 <h1>New Customer</h1>
-                <form onSubmit={this.handleSubmit}>
-                <label>Name:<input onChange={this.handleChange} name='name'></input></label>
-                <label>City:<input onChange={this.handleChange} name='city'></input></label>
-                <label>State:<input onChange={this.handleChange} name='state'></input></label>
+                <form className='customerForm' onSubmit={this.handleSubmit}>
+                <label>Name:</label>
+                <input onChange={this.handleChange} name='name'></input>
+                <label>City:</label>
+                <input onChange={this.handleChange} name='city'></input>
+                <label>State:</label>
+                <input onChange={this.handleChange} name='state'></input>
                 <button type='submit'>Submit</button>
                 </form>
             </section>

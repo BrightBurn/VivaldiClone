@@ -1,7 +1,8 @@
 *{
     padding:0;
     margin:0;
-    list-style:none;
+    box-sizing: border-box;
+    border:none;
 }
 
 table{
@@ -12,4 +13,49 @@ text-align: left;
 }
 th{
     font-size: 20px;
+}
+header{
+    background: rgb(57, 108, 173);
+    padding: 35px;
+}
+a{
+ margin-right:40px;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: whitesmoke;   
+}
+.customerform{
+border: 1px solid black;
+padding: 15px;
+margin:0px 25%;
+}
+
+form input{
+    height: 30px;
+    border: 1px solid black;
+    width: 100%;
+}
+form button{
+    padding: 15px;
+    width: 100%;
+    background: rgb(57, 108, 173);
+    color: whitesmoke;
+    margin-top: 15px;
+}
+button{
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.container{
+    margin: 0 15px;
+}
+table{
+    border-collapse: collapse;
+}
+.entry:nth-child(even){
+    background: whitesmoke;
+}
+.entry:nth-child(odd){
+    background: gray;
 }
