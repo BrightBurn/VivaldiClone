@@ -1,0 +1,15 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+table{
+width:100%;
+}
+thead{
+text-align: left;
+}
+th{
+    font-size: 20px;
+}
